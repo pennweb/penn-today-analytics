@@ -1,0 +1,22 @@
+{
+  "name": "penn-today-analytics",
+  "version": "0.1.0",
+  "description": "Query and compare Penn Today GA4 and Chartbeat data in natural language.",
+  "author": {
+    "name": "Penn Today"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Penn Today Analytics",
+    "shortDescription": "Ask natural-language questions about GA4 and Chartbeat.",
+    "longDescription": "Read-only Penn Today analytics workflows for traffic reporting, source and device breakdowns, trend analysis, consent diagnostics, and GA4-to-Chartbeat comparisons.",
+    "developerName": "Penn Today",
+    "category": "Data & Analytics",
+    "capabilities": ["Read-only analytics", "GA4", "Chartbeat"],
+    "defaultPrompt": [
+      "How was Penn Today traffic yesterday?",
+      "Compare GA4 and Chartbeat over the past week.",
+      "Check whether page views are double firing."
+    ]
+  }
+}
