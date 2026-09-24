@@ -1,0 +1,20 @@
+{
+  "name": "penn-today-analytics",
+  "interface": {
+    "displayName": "Penn Today Analytics"
+  },
+  "plugins": [
+    {
+      "name": "penn-today-analytics",
+      "source": {
+        "source": "local",
+        "path": "."
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Data & Analytics"
+    }
+  ]
+}
